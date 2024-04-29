@@ -1,7 +1,8 @@
 namespace WebAppGitCpmmands
 {
     public class WeatherForecast
-    {
+    { 
+        public string Conclusion5  { get; set; }
         public DateOnly Date { get; set; }
 
         public int TemperatureC { get; set; }
